@@ -33,11 +33,17 @@ Employee_Info.prototype.renderInfo = function () {
     const departDive = document.createElement("div");
     const salaryDiv = document.createElement("div");
 
-    // creat content element
+
     const imgElement = document.createElement("img");
     const nameEl = document.createElement("h4");
     const departInfo = document.createElement("p");
     const salaryInfo = document.createElement("p");
+
+
+
+
+    // styling the cards
+
 
     departInfo.textContent = this.depatment;
     departInfo.style.fontSize = "20px";
